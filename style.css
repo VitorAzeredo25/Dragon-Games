@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+html {
+    height: 100%;
+}
+
+.body-grad {
+    margin: 0;
+    background: linear-gradient(145deg, rgb(52, 52, 52) 30%, rgb(66, 34, 34) 60%, rgb(107, 39, 39) 100%);
+    background-attachment: fixed;
+}
+
+.body-logcad {
+    background-color: #1a1212;
+}
+
+
+/* HOME */
+.home-header {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.526);
+    font-family: "Metamorphous", serif;
+}
+
+.meu-container {
+    position: relative;
+    height: 200px;
+}
+
+.lado-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.lado-1 img {
+    position: absolute;
+}
+
+.lado-1 h1 {
+    padding-left: 20px;
+    font-size: 50px;
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    width: 500px;
+    color: white;
+}
+
+.lado-1 img {
+    padding-left: 30px;
+    height: 200px;
+}
+
+.lado-2 {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
+
+.lado-2 form {
+    float: left;
+}
+
+.lado-2 input {
+    padding-left: 6px;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.lado-2 input::placeholder {
+    font-size: 20px;
+}
+
+.lado-2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 15px;
+    vertical-align: middle;
+    transition: color 0.2s ease;
+}
+
+.lado-2 a:hover {
+    color: rgb(180, 179, 179);
+}
+
+.sup-bu {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(107, 39, 39);
+    transition: background-color 0.2s ease;
+}
+
+.sup-bu:hover {
+    background-color: rgb(79, 28, 28);
+}
+
+.carousel {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-centro {
+    width: 2000px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.carousel-centro img {
+    height: 700px;
+    object-fit: cover;
+}
+
+.titulo {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.display-categorias ul {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 50px;
+    width: 1800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.display-categorias li {
+    float: left;
+}
+
+.img-categorias {
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.img-categorias:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background: linear-gradient(180deg, #1a1212, #2b1313);
+    padding: 50px 0 30px 0;
+    text-align: center;
+    color: white;
+    font-family: "Metamorphous", serif;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+footer h2 {
+    font-size: 42px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.footer-sub {
+    font-size: 20px;
+    margin: 10px 0 40px 0;
+}
+
+.footer-content {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.footer-coluna {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer-coluna h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(170, 80, 80);
+}
+
+.footer-coluna ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: fit-content;
+    width: 270px;
+}
+
+.footer-coluna li {
+    text-align: left;
+    padding-left: 30%;
+}
+
+.text {
+    font-size: 15px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer-coluna a {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: color 0.2s ease;
+}
+
+.footer-coluna a:hover {
+    color: rgb(170, 80, 80);
+}
+
+.footer-copy {
+    font-size: 14px;
+    margin-top: 40px;
+    opacity: 0.6;
+    clear: both;
+}
+
+/* Games list */
+.list-header {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.526);
+}
+
+.centro {
+    text-align: center;
+}
+
+.centro img {
+    width: 200px;
+}
+
+.list-games {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    max-width: 1450px;
+    margin: 30px auto 50px auto;
+    overflow: hidden;
+}
+
+.list-left {
+    float: left;
+    width: 49%;
+}
+
+.list-right {
+    float: right;
+    width: 49%;
+}
+
+.card-game {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    background-color: #241818;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.game-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.game-info {
+    position: absolute;
+    top: 25px;
+    left: 350px;
+    right: 20px;
+}
+
+.game-titulo {
+    font-size: 28px;
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+.game-desc {
+    font-size: 16px;
+    color: rgb(220, 220, 220);
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+
+.game-preco {
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(84, 179, 87);
+    width: 110px;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 0;
+    padding: 3px;
+}
+
+/* Login e Cadastro */
+.body-logcad {
+    height: 100%;
+    margin: 0;
+    position: relative;
+    background-color: black;
+    background-image: url(imgs/wallpaperdragon.jpg);
+    background-size: 100%;
+}
+
+.cont-logcad {
+    width: 100%;
+    height: 100%;
+}
+
+.login-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Metamorphous", serif;
+    background-color: rgba(0, 0, 0, 0.356);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    height: 500px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 2px rgb(247, 80, 80);
+}
+
+.login-card h1 {
+    margin-top: 0;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.input-box {
+    width: 100%;
+    height: 60px;
+    margin: 22px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(247, 80, 80);
+    border-radius: 15px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.input-box input::placeholder {
+    font-family: "Metamorphous", serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.lembrar-cadastrar {
+    width: 100%;
+    overflow: auto;
+}
+
+.lembrar-cadastrar label {
+    float: left;
+}
+
+.lembrar-cadastrar a {
+    float: right;
+}
+
+.lembrar-cadastrar a {
+    text-decoration: none;
+    color: rgb(0, 238, 255);
+    ;
+}
+
+.lembrar-cadastrar a:hover {
+    color: white;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(247, 80, 80, 0.411);
+    border: 2px solid rgb(84, 28, 28);
+    color: white;
+    font-family: "Metamorphous", serif;
+    font-size: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: rgba(247, 80, 80, 0.747);
+}
+
+.logo-logcad {
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.logo-logcad img {
+    width: 700px;
+}
+
+
+/* Suporte */
+
+.cont-acor{
+    margin: 50px auto;
+    width: 1100px;
+    height: 50vh;
+    font-family: "Metamorphous", serif;
+}
+
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+}
+
+.accordion-button {
+    background-color: rgb(46, 24, 24) !important;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(46, 24, 24) !important;
+    color: #fff !important;
+}
+
+.accordion-body {
+    background-color: rgb(107, 39, 39);
+    color: #fff;
+}
+
+.accordion-button::after {
+    filter: brightness(10);
+}
+
+.btn-dragon {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 1.25rem;
+    background-color: rgb(46, 24, 24);
+    margin-top: 20px; 
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.btn-dragon:hover {
+    background-color: rgb(107, 39, 39);
+    cursor: pointer;
+}
