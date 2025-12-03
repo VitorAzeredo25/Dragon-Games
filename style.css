@@ -487,8 +487,8 @@ footer h2 {
 /* Game */
 
 .main-container {
-    width: 90%;
-    max-width: 1400px;
+    width: 100%;
+    max-width: 1500px;
     margin: 20px auto;
 }
 
@@ -504,10 +504,16 @@ footer h2 {
     background-color: black;
 }
 
+.carousel{
+    margin-top: 0;
+}
+
 .game-description-box {
     float: right;
     width: 28%;
-    background-color: #2c2c2c;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: solid 2px rgb(247, 80, 80);
+    color: white;
     padding: 20px;
     height: auto;
     border-radius: 8px;
@@ -516,7 +522,6 @@ footer h2 {
 
 .bottom-section {
     width: 100%;
-    overflow: hidden;
     padding-top: 10px;
     border-top: 1px solid #444;
 }
@@ -527,7 +532,7 @@ footer h2 {
 
 .title-game {
     margin: 0;
-    font-size: 32px;
+    font-size: 40px;
     color: white;
 }
 
@@ -538,7 +543,7 @@ footer h2 {
 .btn-custom {
     float: left;
     margin-right: 10px;
-    background-color: rgb(0, 107, 0);
+    background-color: #555;
     color: white;
     padding: 8px 16px;
     font-size: 18px;
@@ -548,7 +553,7 @@ footer h2 {
 }
 
 .btn-custom:hover {
-    background-color: rgb(0, 86, 0);
+    background-color: #4c4949;
 }
 
 .dropdown-wrapper {
@@ -556,8 +561,17 @@ footer h2 {
 }
 
 .btn-buy {
-    background-color: #555;
+    background-color: rgb(0, 107, 0);
     font-size: 18px;
     border: none;
     padding: 8px 16px;
+}
+
+.btn-buy:hover{
+    background-color: rgb(0, 86, 0);
+}
+
+
+.desespero{
+    margin-bottom: 150px;
 }
