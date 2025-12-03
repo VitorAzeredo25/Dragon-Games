@@ -401,7 +401,7 @@ footer h2 {
     color: white;
 }
 
-.btn {
+.btn_cadlog {
     margin-top: 30px;
     width: 100%;
     height: 50px;
@@ -414,7 +414,7 @@ footer h2 {
     transition: background-color 0.2s ease;
 }
 
-.btn:hover {
+.btn_cadlog:hover {
     background-color: rgba(247, 80, 80, 0.747);
 }
 
@@ -464,7 +464,7 @@ footer h2 {
     filter: brightness(10);
 }
 
-.btn-dragon {
+.btn_dragon {
     width: 100%;
     text-align: center;
     padding: 1rem 1.25rem;
@@ -478,7 +478,86 @@ footer h2 {
     transition: background-color 0.2s ease;
 }
 
-.btn-dragon:hover {
+.btn_dragon:hover {
     background-color: rgb(107, 39, 39);
     cursor: pointer;
+}
+
+
+/* Game */
+
+.main-container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+.top-section {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.carousel-wrapper {
+    float: left;
+    width: 70%;
+    background-color: black;
+}
+
+.game-description-box {
+    float: right;
+    width: 28%;
+    background-color: #2c2c2c;
+    padding: 20px;
+    height: auto;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.bottom-section {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+}
+
+.title-wrapper {
+    float: left;
+}
+
+.title-game {
+    margin: 0;
+    font-size: 32px;
+    color: white;
+}
+
+.buttons-wrapper {
+    float: right;
+}
+
+.btn-custom {
+    float: left;
+    margin-right: 10px;
+    background-color: rgb(0, 107, 0);
+    color: white;
+    padding: 8px 16px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: rgb(0, 86, 0);
+}
+
+.dropdown-wrapper {
+    float: left;
+}
+
+.btn-buy {
+    background-color: #555;
+    font-size: 18px;
+    border: none;
+    padding: 8px 16px;
 }
